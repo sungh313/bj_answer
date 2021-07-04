@@ -34,7 +34,7 @@ int main(){
 }
 
 char* gee(){
-	char* os_s = (char*)malloc(80);
+	char* os_s = (char*)malloc(100); //char os_s[80] (*os_s)+1 == os_s[1]
 	scanf("%s", os_s);
 	return os_s;
 }
